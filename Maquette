@@ -47,3 +47,54 @@ Voici maintenant une idée plus détaillée pour la page principale après avoir
 
     Menu interactif : Chaque élément du menu pourrait être dynamique, avec des animations au survol ou des transitions fluides pour rendre la navigation plus fluide.
     Effets au clic : Lorsque l'on clique sur un personnage ou une section, une animation ou un effet visuel pourrait faire apparaître le contenu de manière immersive.
+
+Voici une idée pour la structure et le design de la page "Personnages" et des fonctionnalités que tu souhaites inclure, ainsi que l'outil de recherche que tu veux intégrer sur la page principale.
+1. Page "Personnages" :
+Structure de la page :
+
+    En-tête de la page :
+        Titre principal : Les Personnages d'Arcane.
+        Sous-titre : Un petit texte comme "Découvrez les personnages emblématiques d'Arcane et plongez dans leurs histoires."
+
+    Liste des personnages :
+        La page pourrait commencer par une liste de miniatures ou cartes pour chaque personnage important (Vi, Jinx, Caitlyn, Jayce, Viktor, etc.). Chaque carte aura une image du personnage et un titre avec son nom.
+        Ces cartes peuvent être cliquables et rediriger vers une page dédiée à chaque personnage.
+
+    Pages individuelles des personnages :
+        Lorsqu'un utilisateur clique sur un personnage, il sera redirigé vers une page dédiée à ce personnage, avec un contenu détaillé.
+        Chaque page individuelle pourrait contenir :
+            Une grande image ou illustration du personnage.
+            Un paragraphe détaillé sur le personnage (son passé, son rôle dans la série, ses relations, ses actions majeures, etc.).
+            Une section "Citations" : Ajouter des citations mémorables du personnage pour ajouter du dynamisme.
+            Un bouton "Retour" pour revenir à la page "Personnages".
+            Un outil de recherche : Permet de trouver des informations rapidement sur le personnage.
+
+Page des personnages : Design et ambiance :
+
+    Le design pourrait être assez épuré mais dynamique, avec des images d’illustrations des personnages en arrière-plan, afin de mettre en valeur leurs histoires.
+    Utilisation d'un scrolling infini ou de sections cliquables pour éviter un affichage trop long de texte, ce qui rendrait la page plus agréable à naviguer.
+
+2. Outil de recherche sur la page principale :
+Emplacement :
+
+    L'outil de recherche pourrait être situé en haut à droite de la page ou dans un barre de navigation fixe.
+    Il pourrait être intégré sous forme de champ de recherche avec un icône de loupe.
+
+Fonctionnalités :
+
+    Lorsque l'utilisateur commence à taper, le site pourrait proposer des résultats en direct (par exemple, des personnages, des événements clés, des lieux, etc.).
+
+    Le moteur de recherche pourrait aussi permettre de trier les résultats par catégorie (par exemple, Personnages, Univers, Riot Games, etc.).
+
+    L’outil de recherche pourrait être également disponible sur toutes les pages du site, en haut ou dans un coin, pour une navigation facile.
+
+3. Navigation améliorée :
+
+    Sur la page Personnages, en plus de l'outil de recherche, tu pourrais avoir des filtres pour trier les personnages par catégories, telles que Protagonistes, Antagonistes, ou Personnages secondaires.
+    Une fonction "Voir tout" à la fin de chaque section (par exemple, "Voir tous les personnages") qui redirige vers une page complète avec une liste de tous les personnages.
+
+4. Ambiance visuelle :
+
+    Les couleurs de la page de personnages pourraient rappeler les teintes de l’univers de Arcane : des couleurs sombres avec des touches de néon, des effets de lumière, ou des dégradés inspirés de l’animation.
+    Chaque personnage pourrait avoir une carte stylisée, avec des effets visuels au survol (par exemple, une lueur autour de l'image ou une animation subtile).
+    Pour l’outil de recherche, le design pourrait aussi intégrer des éléments technologiques (par exemple, une loupe stylisée avec des touches de néon ou des lignes épurées).
