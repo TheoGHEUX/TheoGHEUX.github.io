@@ -13,3 +13,37 @@ Voici ce que je te propose pour la maquette de la page d'avertissement :
     Graphismes et éléments visuels :
         Une illustration centrale de personnages populaires de la série (Vi, Jinx, etc.), avec des effets lumineux évoquant l'univers technologique et magique de Arcane.
         Des effets de lumière pour attirer l'attention sur le bouton "Continuer".
+
+Voici maintenant une idée plus détaillée pour la page principale après avoir cliqué sur le bouton "Continuer". Je vais également intégrer les éléments de navigation et d’interaction que tu mentionnes. Voici comment on pourrait organiser la page :
+
+1. Fond et ambiance visuelle :
+
+    Fond dynamique avec des éléments de la série Arcane, mais plus lumineux et un peu plus neutre par rapport à la page d'avertissement. Par exemple, une scène de Piltover ou un paysage représentant les deux villes, Piltover et Zaun, pourrait être en arrière-plan.
+    Des effets de lumière, un peu futuristes, mais sans surcharger l’arrière-plan, pour ne pas distraire des éléments importants du contenu.
+
+2. En-tête (Header) :
+
+    Titre principal : Bienvenue dans l'univers d'Arcane ou Explorez l'univers d'Arcane avec une typographie en accord avec l'univers de la série.
+    Sous-titre : Une brève explication sur le but du site, comme "Plongez dans les histoires des personnages, l'univers de Riot Games et bien plus encore."
+    Menu de navigation principal : Un menu horizontal ou vertical qui permet d'accéder aux différentes sections du site. Par exemple :
+        Histoires des personnages
+        Qu'est-ce que Riot Games ?
+        L'univers d'Arcane (détails sur les lieux, les factions, les événements)
+        Galerie d'illustrations et vidéos
+        Contact ou forum de discussion
+
+3. Contenu principal de la page :
+
+    Introduction rapide : Un petit paragraphe expliquant brièvement de quoi parle le site, l'univers d'Arcane et son lien avec Riot Games. Ce texte pourrait être accompagné de petites illustrations ou vignettes de personnages de la série, comme Vi, Jinx, ou Jayce.
+    Section d’histoires des personnages : Un lien cliquable ou un bouton permettant d’accéder directement à cette section, avec des résumés et des informations sur les personnages principaux.
+    Qu'est-ce que Riot ? : Une explication rapide de Riot Games, avec des liens vers des articles ou des vidéos sur l’histoire du studio et ses autres projets comme League of Legends et Valorant.
+
+4. Navigation rapide :
+
+    Bouton retour au menu : Un bouton flottant ou en haut à droite de la page, avec un texte comme "Retour au menu principal". Ce bouton permettrait de revenir directement au menu de navigation si l'utilisateur est perdu dans le contenu.
+    Bouton "Remonter" : Un bouton fixe en bas à droite de l'écran, permettant de revenir en haut de la page facilement.
+
+5. Éléments interactifs :
+
+    Menu interactif : Chaque élément du menu pourrait être dynamique, avec des animations au survol ou des transitions fluides pour rendre la navigation plus fluide.
+    Effets au clic : Lorsque l'on clique sur un personnage ou une section, une animation ou un effet visuel pourrait faire apparaître le contenu de manière immersive.
