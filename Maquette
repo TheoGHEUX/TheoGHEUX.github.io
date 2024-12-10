@@ -98,3 +98,64 @@ Fonctionnalités :
     Les couleurs de la page de personnages pourraient rappeler les teintes de l’univers de Arcane : des couleurs sombres avec des touches de néon, des effets de lumière, ou des dégradés inspirés de l’animation.
     Chaque personnage pourrait avoir une carte stylisée, avec des effets visuels au survol (par exemple, une lueur autour de l'image ou une animation subtile).
     Pour l’outil de recherche, le design pourrait aussi intégrer des éléments technologiques (par exemple, une loupe stylisée avec des touches de néon ou des lignes épurées).
+
+Voici une description complète et détaillée pour une maquette web de la section "Univers d'Arcane", qui présente les lieux, factions et événements marquants de la série.
+1. En-tête de la page
+
+    Titre principal : "Explorez l'univers d'Arcane"
+        Placé en haut, centré ou légèrement à gauche, avec une typographie immersive inspirée de la série.
+        Accompagné d’un effet lumineux ou d’un léger dégradé évoquant la technologie et la magie.
+    Sous-titre : "Découvrez les lieux emblématiques, les factions influentes et les événements qui façonnent cet univers unique."
+        Une petite ligne de texte sous le titre principal pour donner une introduction rapide.
+
+2. Section principale : Les lieux emblématiques
+
+    Structure : Une grille ou un carrousel interactif avec des images des lieux principaux :
+        Piltover : La ville éclairée par le progrès et la technologie, avec des tons dorés et lumineux.
+        Zaun : Les bas-fonds industriels, sombres et oppressants, avec des touches de vert néon et de vapeur.
+        Freljord (si inclus) : Un paysage glacé et majestueux, avec des tons bleutés.
+    Design des cartes :
+        Chaque lieu est présenté avec une image immersive, son nom en surimpression, et un bref résumé (exemple : "Piltover - Le cœur du progrès technologique.").
+        Animation : Survol avec zoom ou effet lumineux autour de l'image.
+
+3. Section secondaire : Factions et alliances
+
+    Disposition : Une rangée horizontale ou une section divisée.
+    Contenu :
+        Présentation des factions importantes comme les Innovateurs de Piltover, les Résistants de Zaun, et les individus neutres.
+        Chaque faction a un logo ou une icône stylisée et un petit texte explicatif.
+    Interaction :
+        Cliquer sur une faction ouvre un pop-up ou redirige vers une page dédiée avec plus de détails.
+
+4. Section événementielle : Chronologie des événements
+
+    Structure :
+        Une chronologie interactive qui illustre les événements marquants de la série.
+        Exemple : "L’invention de l’Hextech", "L’explosion qui a changé Zaun", etc.
+    Design :
+        Chaque événement est présenté avec une petite icône ou image et un texte bref.
+        Les utilisateurs peuvent cliquer sur un événement pour afficher des détails supplémentaires dans une fenêtre modale.
+
+5. Effet visuel et navigation
+
+    Fond de page :
+        Un mélange de Piltover et Zaun en arrière-plan, avec une séparation floue ou un dégradé entre la lumière dorée et les ombres vertes.
+        Des éléments animés subtils comme des particules lumineuses ou des lignes technologiques.
+    Menu fixe :
+        Une barre de navigation en haut ou à gauche avec des liens vers :
+            "Lieux"
+            "Factions"
+            "Chronologie"
+            "Retour à l'accueil"
+
+6. Bonus interactif : Carte dynamique
+
+    Une carte visuelle de l'univers d'Arcane (Piltover et Zaun en focus), où chaque lieu est cliquable.
+    Effet : Au survol, des informations apparaissent sous forme de pop-up (exemple : "Piltover - Le joyau du progrès").
+
+7. Palette de couleurs et ambiance
+
+    Couleurs dominantes :
+        Tons dorés et argentés pour Piltover.
+        Verts sombres et violets néons pour Zaun.
+    Ambiance générale : Futuriste et immersive, avec une séparation nette entre l’aspect technologique brillant de Piltover et l’ombre industrielle de Zaun.
