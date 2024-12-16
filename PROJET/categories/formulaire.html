@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><img src ="../images/netflix.png" width="50px"></li> 
+            <li><a href = "menu.html"><img src="../images/titrearcane.png" width="200px"></a></li>
+            <li><a href = "../categories/perso.html">Personnages</a></li>
+            <li><a href = "../categories/univers.html">Univers d'Arcane</a></li>
+            <li><a href = "../categories/fortiche.html">Studio Fortiche</a></li>
+            <li><a href = "../categories/riot.html">Riot Games</a></li>
+            <li>Langue</li>
+            <li><a href="avis.html"><img src = "../images/avis.png" width="50px"></a></li>
+        </ul>
+    </nav>
+    <h2>DONNEZ VOTRE AVIS :</h2>
+    <form id="form" action="mailto:alexisfabre2006@gmail.com" method="post" enctype="text/plain">
+        <p>
+            <label for="prenom">Prénom</label>
+            <input id="prenom" type="text" name="prenom" value=" "><br>
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" name="nom" value=" "><br>
+            <label for="note sur 10">Notes</label>
+            <input id=",note" type="text" name="note" value=" "><br>
+            <textarea name="notes" rows="2" cols="50">Donnez vos avis sur le site .
+            </textarea><br>
+            <input type="submit" value="Enregistrer">
+        </p>
+    </form>
+</body>
+</html>
