@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Personnages</title>
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_Personnages.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+    
+                <li><img src ="../images/netflix.png" width="50" alt="Logo_Netflix"></li> 
+                <li><a href = "menu.html"><img src="../images/titrearcane.png" width="200" alt="Arcane"></a></li>
+                <li><a href = "../categories/perso.html">Personnages</a></li>
+                <li><a href = "../categories/univers.html">Univers d'Arcane</a></li>
+                <li><a href = "../categories/fortiche.html">Studio Fortiche</a></li>
+                <li><a href = "../categories/riot.html">Riot Games</a></li>
+                <li>Langue</li>
+                <li><a href="avis.html"><img src = "../images/avis.png" width="50" alt="avis"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="subtitle">Les Personnages</h2>
+    <div class="slideshow-container2">
+        <div class="Slide">
+            <div class="nb">
+                1 / 6
+            </div>
+            <div id="conteneur">
+            <p>Criminelle zaunite, amoureuse du chaos et de la destruction, Jinx fait  des ravages dans Piltover en utilisant son 
+                arsenal d'armes explosives,  semant la panique partout où elle pose le pied.</p>
+            </div>
+            <img src="../images/PAGE_PERSONNAGES/jinx.png" class="Zaun">
+        </div>
+
+        <div class="Slide">
+            <div class="nb">
+                2 / 6
+            </div>
+            <div id="conteneur">
+                <p>L'agent philippin, Neon, s'élance vers l'avant à une vitesse fulgurante, libérant de grosses décharges 
+                    de radiance biomagnétique générées frénétiquement par son corps. Elle se lance à la poursuite 
+                    des ennemis qui n'ont pas le temps de s'y préparer et les élimine aussi vite que l'éclair.</p>
+            </div>
+            <img src="../images/PAGE_PERSONNAGES/Vi_Arcane_render.png" class="Zaun">
+        </div>
+
+    <!-- defilement -->
+    <a class="prev2" onclick="plusSlideseE(-1)">&#10094;</a>
+    <a class="next2" onclick="plusSlideseE(1)">&#10095;</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- cercle placement-->
+    <div style="text-align:center">
+        <span class="dot2" onclick="currentSlideeE(1)"></span>
+        <span class="dot2" onclick="currentSlideeE(2)"></span>
+        <span class="dot2" onclick="currentSlideeE(3)"></span>
+        <span class="dot2" onclick="currentSlideeE(4)"></span>
+        <span class="dot2" onclick="currentSlideeE(5)"></span>
+        <span class="dot2" onclick="currentSlideeE(6)"></span>
+    </div>
+</body>
+</html>
