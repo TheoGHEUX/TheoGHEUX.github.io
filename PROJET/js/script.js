@@ -95,3 +95,4 @@ function showSlideseE(n) {
   slides[slideIndex3 - 1].style.display = "block";
   dots[slideIndex3 - 1].className += " active";
 }
+
