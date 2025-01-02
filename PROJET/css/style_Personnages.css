@@ -2,7 +2,6 @@
   font-family: 'arcane';
   src: url(../fonts/Arcane\ Nine.otf);
 }
-
 body{
 	font-family: 'arcane-';
   letter-spacing: 1.5px;
@@ -11,89 +10,86 @@ body{
   float: right;
   width:25em;
   height:30em;
-  border-radius: 40% 40% 10% 10% / 0% 0% 2.5% 2.5%;
-  color: white;
+  color: black;
   font-family: arcane;
   transition: all .4s ease;
   text-align: center;
   opacity: 90%;
-  margin-top: 5em;
+  margin-top: 1em;
   margin-right: 5em;
+  letter-spacing: 0.3em;
 }
-#conteneur p{
-  padding: 20px;
+h3{
+  font-size: 4em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 0.5em;
 }
-#conteneur2 {
-  float: right;
-  width:25em;
-  height: 30em;
-  background: linear-gradient(160deg,grey,black); 
-  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
-  color: white;
-  box-shadow: 2em 2em rgba(0,0,0,.15);
-  transition: all .4s ease;
-  text-align: center;
-  opacity: 90%;
-  margin-top: 10em;
-  margin-right: 10em;
+p1{
+  font-size: 2em;
 }
-#conteneur:hover {
-  border-radius: 70% 70% 10% 10% / 0% 0% 5% 5% ;
-  box-shadow: 0.5em 0.5em rgba(0,0,0,255);
+.img_Zaun{
+  z-index: 2;
+  width: 30em;
   height: auto;
-}
-
-.Zaun{
-  width: 20em;
-  height: 30em;
   margin-left: 4em;
-  margin-top: 5em;
+  margin-top: 4.88em;
   transition: all .4s ease;
 }
-
-iframe{
-  margin-left: 7.8em;
-  margin-top: 5.5em;
-  width: 45em;
-  height: 22.5em;
+.VI{
+  margin-top: 9.6em;
+}
+.Zaun, 
+.Piltover,
+.Noxus{
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 60%;
 }
 
+.titre{
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+.personnages{
+  margin: auto;
+  height: 10em;
+}
 @font-face {
-    font-family: 'bowlby_oneregular';
-    src: url('polices/Bowlby_One_font/bowlbyone-regular-webfont.woff2') format('woff2'),
-         url('polices/Bowlby_One_font/bowlbyone-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'bowlby_oneregular';
+  src: url('polices/Bowlby_One_font/bowlbyone-regular-webfont.woff2') format('woff2'),
+    url('polices/Bowlby_One_font/bowlbyone-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-  .Slides {
-    display: none;
-    border: 1em solid rgba(0, 0, 0, 0.9);
-    height: 40em;
-    background-color: rgba(153, 153, 153, 0.9);
-  }
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  /* 2 boutons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 16em;
-    margin: 0.9em;
-    width: auto;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 5px 25px 25px 5px;
-    user-select: none;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 2;
-  }
+.Slides {
+  display: none;
+  height: 40em;
+  background-color: rgba(153, 153, 153, 0.8);
+}
+.Slide_conteneur {
+  max-width: 98%;
+  position: relative;
+  margin: auto;
+  padding-bottom: 2em;
+}
+/* 2 boutons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 16em;
+  width: auto;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 5px 25px 25px 5px;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
   /* Position bouton droite */
   .next {
     right: -0.06em;
@@ -139,7 +135,7 @@ iframe{
     background-color: rgb(0, 0, 0);
   }
   /*animation de transition */
-  .fade {
+  .transition {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
