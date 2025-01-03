@@ -37,11 +37,11 @@ function showSlides(n) {
 var slideIndex2 = 1;
 showSlidese(slideIndex2);
 
-function plusSlidese(n) {
+function plusSlides2(n) {
   showSlidese((slideIndex2 += n));
 }
 
-function currentSlidee(n) {
+function currentSlide2(n) {
   showSlidese((slideIndex2 = n));
 }
 
@@ -64,15 +64,16 @@ function showSlidese(n) {
   slides[slideIndex2 - 1].style.display = "block";
   dots[slideIndex2 - 1].className += " active";
 }
+
 /** Troisième slide **/
 var slideIndex3 = 1;
 showSlideseE(slideIndex3);
 
-function plusSlideseE(n) {
+function plusSlides3(n) {
   showSlideseE((slideIndex3 += n));
 }
 
-function currentSlideeE(n) {
+function currentSlide3(n) {
   showSlideseE((slideIndex3 = n));
 }
 
