@@ -1,0 +1,81 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    /*background-position: center;*/
+    margin : 0;
+    padding : 0 ;
+    color : white ;
+    /*cursor: url(../images/menu/epee.png),auto;*/
+}
+
+a {
+    color : white ;
+    text-decoration: none;
+}
+
+h1 {
+    text-decoration: bold;
+}
+
+/* bouton en fin de page */
+
+.bouton {
+    text-align: right;
+    padding : 5vw;
+}
+
+.bouton a {
+    display: inline-block; 
+    background-color: rgba(255, 255, 255, 0.35); 
+    padding: 1.5vw; 
+    border-radius: 2vw; 
+}
+
+.bouton-image{
+    width: 5vw;
+}
+
+/* BANDEAU */
+
+.bandeau_riot {
+    background-color: rgba(0,0,0,0.35) ;
+    display: flex;
+    justify-content: center ;
+    color:white;
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans;
+}
+
+
+.bandeau_riot ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0;
+}
+
+.bandeau_riot ul li a{
+    padding-right: 1vw;
+    padding-left: 1vw;
+    white-space: nowrap;
+}
+
+.bandeau_riot a:hover{
+    color: black;  
+}
+
+.arcane-logo {
+    width: 25vw;  
+}
+
+.netflix-logo {
+    width: 5vw;
+    
+}
+
+.avis-image {
+    width: 5vw;
+}
+

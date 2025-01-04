@@ -1,0 +1,175 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    /*background-position: center;*/
+    margin : 0;
+    padding : 0 ;
+    color : white ;
+    /*cursor: url(../images/menu/epee.png),auto;*/
+}
+
+a {
+    color : white ;
+    text-decoration: none;
+}
+
+/* bouton en fin de page */
+
+.bouton {
+    text-align: right;
+    padding : 5vw;
+    margin-top: 1vw;
+}
+
+.bouton a {
+    display: inline-block; 
+    background-color: rgba(255, 255, 255, 0.35); 
+    padding: 1.5vw; 
+    border-radius: 2vw; 
+}
+
+.bouton-image{
+    width: 5vw;
+}
+
+/* BANDEAU */
+
+.bandeau_fortiche {
+    background-color: rgba(0,0,0,0.35) ;
+    display: flex;
+    justify-content: center ;
+    color:white;
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans;
+}
+
+.bandeau_fortiche ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0;
+}
+
+.bandeau_fortiche ul li a{
+    padding-right: 1vw;
+    padding-left: 1vw;
+    white-space: nowrap;
+}
+
+.bandeau_fortiche a:hover{
+    color: black;
+}
+
+
+.arcane-logo {
+    width: 25vw;  
+}
+
+.netflix-logo {
+    width: 5vw;
+    
+}
+
+.avis-image {
+    width: 5vw;
+}
+
+/* FORTICHE */
+
+
+.paragraphe_fortiche {
+    text-align: justify;
+    font-size : 2.3vw;
+    padding : 5vw;
+    margin : 2vw 4vw 2vw 4vw ;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 2vw;
+}
+
+
+.paragraphe_fortiche ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.titre_fortiche {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.voix {
+    display: flex;
+    justify-content: center ;
+    color:white;
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans;
+}
+
+.voix ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0;
+}
+
+.voix ul li {
+    padding-right: 4vw;
+    padding-left: 4vw;
+    white-space: nowrap;
+}
+
+.legende-fortiche{
+    text-align: justify;
+    font-size : 1vw;
+    padding-top: 0.5vw;
+    text-align: center;
+}
+
+/* IMAGES FORTICHE */
+
+.fortiche-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: 50vw;
+}
+
+.purnell {
+    width: 20vw;
+    border-radius: 5vw;
+}
+
+.jinx-voix {
+    width: 20vw;
+    border-radius: 5vw;
+}
+
+.alejandro{
+    width: 20vw;
+    border-radius: 5vw;
+}
+
+.jayce-voix{
+    width: 20vw;
+    border-radius: 5vw;
+}
+
+.leung{
+    width: 20vw;
+    border-radius: 5vw;
+}
+
+.caitlyn-voix{
+    width: 20vw;
+    border-radius: 5vw;
+}
+

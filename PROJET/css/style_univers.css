@@ -1,0 +1,271 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    /*background-position: center;*/
+    margin : 0;
+    padding : 0 ;
+    color : white ;
+    /*cursor: url(../images/menu/epee.png),auto;*/
+}
+
+a {
+    color : white ;
+    text-decoration: none;
+}
+
+/* bouton en fin de page */
+
+.bouton {
+    text-align: right;
+    padding : 5vw;
+    margin-top: 1vw;
+}
+
+.bouton a {
+    display: inline-block; 
+    background-color: rgba(255, 255, 255, 0.35); 
+    padding: 1.5vw; 
+    border-radius: 2vw; 
+}
+
+.bouton-image{
+    width: 5vw;
+}
+
+/* BANDEAU */
+
+.bandeau_univers {
+    background-color: rgba(0,0,0,0.35) ;
+    display: flex;
+    justify-content: center ;
+    color:white;
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans;
+}
+
+.bandeau_univers ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0;
+}
+
+.bandeau_univers ul li a{
+    padding-right: 1vw;
+    padding-left: 1vw;
+    white-space: nowrap;
+}
+
+.bandeau_univers a:hover{
+    color: black;
+}
+
+
+.arcane-logo {
+    width: 25vw;  
+}
+
+.netflix-logo {
+    width: 5vw;
+    
+}
+
+.avis-image {
+    width: 5vw;
+}
+
+/* IMAGES */
+
+.runeterra-lol {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    width: 50vw;
+}
+
+.carte-runeterra {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vw;
+    width: 60vw;
+}
+
+.trait-sep {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    width: 60vw;
+}
+
+.arcane-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+}
+
+.image-roquette {
+    width: 40vw;
+}
+
+.jinxR {
+    width: 25vw;
+}
+
+.ekko-et-jinx{
+width: 50vw;
+}
+
+.ekko-et-jinx2{
+    width: 23.2vw;
+}
+
+.danse {
+    width: 40vw;
+}
+
+.video- {
+    width: 40vw;
+    margin: 0;
+}
+
+/* UNIVERS */
+
+.legende_carte {
+    text-align: justify;
+    font-size : 1.5vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.legende_carte a{
+    display: inline-block ;
+}
+
+
+.legende_carte a:hover{
+    color :aqua;
+}
+
+.paragraphe_univers {
+    text-align: justify;
+    font-size : 2vw;
+    padding : 5vw;
+    margin : 2vw 4vw 2vw 4vw ;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 2vw;
+}
+
+
+.paragraphe_univers ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.titre-iconique {
+    padding-bottom: 2vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+
+.iconique_roquette {
+    display: flex;
+    justify-content: center ;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans;
+}
+
+.iconique_roquette ul {
+    padding-right : 2vw;
+    padding-left : 2vw;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.iconique_roquette ul li {
+    padding: 0 3vw 3vw 3vw;
+}
+
+.legende {
+    text-align: justify;
+    font-size : 2.2vw;
+    padding: 2.5vw;
+    width: 35vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.legende- {
+    text-align: justify;
+    font-size : 2.2vw;
+    padding: 6.5vw 2.5vw 6.5vw 2.5vw;
+    width: 35vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.iconique1 {
+    display: flex;
+    justify-content: center ;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans;
+}
+
+.iconique1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0;
+}
+
+.iconique1 ul li {
+    padding-right: 2vw;
+    padding-left: 2vw;
+    flex-grow: 1;
+}
+
+.iconique_video {
+    display: flex;
+    justify-content: center ;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans;
+}
+
+.iconique_video ul {
+    padding-right : 1vw;
+    padding-left : 1vw;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.legende2 {
+    text-align: justify;
+    font-size : 2.2vw;
+    padding: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 35vw;
+}
+
+.legende2- {
+    text-align: justify;
+    font-size : 2.2vw;
+    padding: 3.8vw 2.5vw 3.8vw 2.5vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
