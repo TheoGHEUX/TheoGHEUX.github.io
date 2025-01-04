@@ -17,20 +17,39 @@ body{
   opacity: 90%;
   margin-top: 1em;
   margin-right: 5em;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.15em;
 }
 h3{
   font-size: 4em;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 0.5em;
+  padding-top: 1em;
+  font-weight: bold;
+  text-align: center;
 }
-p1{
-  font-size: 2.6em;
+.T_Nom{
+  font-size: 3.2em;
+  font-weight: bold;
+}
+.txt_Jinx,
+.txt_Vi,
+.txt_Jayce{
+  font-size: 2.55em;
+}
+.txt_Ekko,
+.txt_Mel{
+  font-size: 2.3em;
+}
+.txt_Caitlyn{
+  font-size: 2.1em;
 }
 .image_conteneur{
   position: relative;
   height: 40em;
   width: 50em;
+}
+.txt_Ambessa,
+.txt_Rictus{
+  font-size: 2.7em;
 }
 .img_Zaun,
 .img_Piltover,
@@ -42,19 +61,27 @@ p1{
 }
 .JINX{
   width: 33em;
-  height: auto;
 }
 .VI{
   width: 35em;
   margin-top: 5em;
 }
+.EKKO{
+  height: 40em;
+}
 .JAYCE{
   margin-left: 10em;
   width: auto;
-  height: 35.2em;
+  height: 39em;
+}
+.MEL{
+  height: 40em;
 }
 .AMBESSA{
   width: 30em;
+}
+.RICTUS{
+  height: 30em;
 }
 .Zaun, 
 .Piltover,
@@ -146,7 +173,7 @@ p1{
 /* nombre position */
 .nb {
   color: #ffffff;
-  font-size: 0.9em;
+  font-size: 1.4em;
   padding: 20px 10px;
   position: absolute;
   top: 0;
