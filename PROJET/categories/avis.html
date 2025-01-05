@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire</title>
+    <script src="../js/script_formulaire.js" defer></script>
     <link rel="stylesheet" href="../css/style_avis.css">
 </head>
 <body>
@@ -21,30 +22,37 @@
         </ul>
     </nav>
     
-    <h1>Donnez votre avis</h1>
-    <form id="form" method="post" enctype="text/plain">
+    <div class="titre"><h2>Donnez votre avis</h2></div>
+    <form id="form" action="https://formspree.io/f/mzzzkavy" method="POST">
         <p>
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
-
-        <label for="email">Adresse e-mail :</label>
-        <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
-
-        <label for="note">Note :</label>
-        <select id="note" name="note">
-            <option>-- Sélectionnez une note --</option>
-            <option>1 - Mauvais</option>
-            <option>2 - Médiocre</option>
-            <option>3 - Moyen</option>
-            <option>4 - Bon</option>
-            <option>5 - Excellent</option>
-        </select>
-
-        <label for="commentaire">Commentaire :</label>
-        <textarea id="commentaire" name="commentaire" rows="5" placeholder="Écrivez votre avis ici..." required></textarea>
-
-        <button type="submit">Envoyer</button>
+            <label for="nom" class="label-text">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+    
+            <label for="email" class="label-text">Adresse e-mail :</label>
+            <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+    
+            <label for="note" class="label-text">Note :</label>
+            <select id="note" name="note">
+                <option>-- Sélectionnez une note --</option>
+                <option>1 - Mauvais</option>
+                <option>2 - Médiocre</option>
+                <option>3 - Moyen</option>
+                <option>4 - Bon</option>
+                <option>5 - Excellent</option>
+            </select>
+    
+            <label for="commentaire" class="label-text">Commentaire :</label>
+            <textarea id="commentaire" name="commentaire" rows="5" placeholder="Écrivez votre avis ici..." required></textarea>
+    
+            <button type="submit">Envoyer</button>
         </p>
     </form>
+
+    <div id="popup" class="popup">
+    <div class="popup-content">
+        <p><i>"Merci pour votre contribution"</i><br><img class="velkoz" src="../images/PAGE_AVIS/velkoz.webp"></p>
+        <button onclick="closePopup()">Fermer</button>
+    </div>
+</div>
 </body>
 </html>
