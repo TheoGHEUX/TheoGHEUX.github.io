@@ -4,4 +4,48 @@ body{
     margin : 0;
     padding : 0 ;
     color : white ;
+    cursor: url(../images/PAGE_AVERTISSEMENT/curseur1.png),auto;
+}
+
+.logo-arcane {
+    display: block;
+    margin : 5vw auto 5vw auto ;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: 50vw;
+}
+
+.paragraphe_accueil {
+    color: black;
+    font-size : 2vw;
+    padding :  0.1vw 5vw 4vw 5vw;
+    margin : 0 4vw 10vw 4vw ;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.paragraphe_accueil h2 {
+    font-size: 6vw;
+}
+
+.continuer {
+    font-size : 2vw;
+    padding :  0.1vw 5vw 1vw 5vw;
+    margin : 0 20vw 10vw 20vw ;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.continuer a {
+    color:white ;
+}
+
+.continuer a:hover {
+    color : rgb(129, 20, 218);
+    cursor: url(../images/PAGE_AVERTISSEMENT/curseur2.png),auto;
+
 }
