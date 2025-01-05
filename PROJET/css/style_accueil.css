@@ -5,6 +5,7 @@ body{
     padding : 0 ;
     color : white ;
     cursor: url(../images/PAGE_AVERTISSEMENT/curseur1.png),auto;
+    background-repeat: no-repeat;
 }
 
 .logo-arcane {
