@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_avis.css">
 </head>
 <body>
-    <nav class="menu">
-        <ul>
-            <li><img src ="../images/netflix.png" width="50px"></li> 
-            <li><a href = "menu.html"><img src="../images/titrearcane.png" width="200px"></a></li>
-            <li><a href = "../categories/perso.html">Personnages</a></li>
-            <li><a href = "../categories/univers.html">Univers d'Arcane</a></li>
-            <li><a href = "../categories/fortiche.html">Studio Fortiche</a></li>
-            <li><a href = "../categories/riot.html">Riot Games</a></li>
-            <li>Langue</li>
-            <li><a href="avis.html"><img src = "../images/avis.png" width="50px"></a></li>
-        </ul>
-    </nav>
-    <h2>DONNEZ VOTRE AVIS :</h2>
-    <form id="form" action="mailto:alexisfabre2006@gmail.com" method="post" enctype="text/plain">
+    <h1>Donnez votre avis</h1>
+    <form id="form" action="" method="post" enctype="text/plain">
         <p>
-            <label for="prenom">Prénom</label>
-            <input id="prenom" type="text" name="prenom" value=" "><br>
-            <label for="nom">Nom</label>
-            <input id="nom" type="text" name="nom" value=" "><br>
-            <label for="note sur 10">Notes</label>
-            <input id=",note" type="text" name="note" value=" "><br>
-            <textarea name="notes" rows="2" cols="50">Donnez vos avis sur le site .
-            </textarea><br>
-            <input type="submit" value="Enregistrer">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+        <label for="email">Adresse e-mail :</label>
+        <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+
+        <label for="note">Note :</label>
+        <select id="note" name="note" required>
+            <option>-- Sélectionnez une note --</option>
+            <option>1 - Mauvais</option>
+            <option>2 - Médiocre</option>
+            <option>3 - Moyen</option>
+            <option>4 - Bon</option>
+            <option>5 - Excellent</option>
+        </select>
+
+        <label for="commentaire">Commentaire :</label>
+        <textarea id="commentaire" name="commentaire" rows="5" placeholder="Écrivez votre avis ici..." required></textarea>
+
+        <button type="submit">Envoyer</button>
         </p>
     </form>
 </body>
