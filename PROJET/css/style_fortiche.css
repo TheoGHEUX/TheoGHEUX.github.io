@@ -153,21 +153,20 @@ a {
     width: 20vw;
     border-radius: 5vw;
 }
-
 /* BOUTON */
 
 .bouton_retourClass {
     font-weight: bold;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 2vw;
+    right: 2vw;
     background-color: transparent;
     color: white;
-    border: 2px solid white;
-    border-radius: 20%;
-    width: 50px;
-    height: 50px;
-    font-size: 38px;
+    border: 0.3vw solid white;
+    border-radius: 1vw;
+    width: 6vw;
+    height: 6vw;
+    font-size: 4vw;
     text-align: center;
     cursor: pointer;
     box-shadow: none;
@@ -180,6 +179,6 @@ a {
   .bouton_retourClass:hover {
     background-color: rgba(17, 17, 17, 0.3);
     color: black;
-    border: 2px solid black;
+    border: 0.3vw solid black;
   }
 
