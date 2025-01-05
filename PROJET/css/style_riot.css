@@ -61,6 +61,64 @@ h1 {
     width: 5vw;
 }
 
+/* IMAGES */
+
+.riotgames {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+.logoriot {
+    width: 20vw;
+    margin-left: 5vw;
+}
+
+.fondateurs {
+    width: 14vw;
+    display: block;
+}
+
+/* RIOT */
+
+.paragraphe_riot {
+    text-align: justify;
+    font-size : 2vw;
+    padding : 5vw;
+    margin : 0 4vw 10vw 4vw ;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 2vw;
+}
+
+
+.paragraphe_riot ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0;
+}
+
+.fonda {
+    padding-left : 2vw;
+}
+
+.ima {
+    display: flex; 
+    flex-direction: column; 
+    padding: 0; 
+    list-style-type: none; 
+}
+
+.legende {
+    font-size: 1.5vw;
+    text-align: center;
+    width: 10vw; 
+    margin: 0 auto; 
+    display: block; 
+}
+
 /* BOUTON */
 
 .bouton_retourClass {
@@ -89,4 +147,3 @@ h1 {
     color: black;
     border: 0.3vw solid black;
   }
-
