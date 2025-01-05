@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulaire permettant de donner votre avis sur notre site WEB. Remplissez vos informations, notez et commentez votre expérience.">
+    <title>FORM</title>
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+    <script src="../../js/script_formulaire.js" defer></script>
+    <link rel="stylesheet" href="../../css/style_avis.css">
+</head>
+<body>
+    <nav class="bandeau_avis">
+        <ul>
+            <li><img src ="../images/netflix.png" class="netflix-logo" alt="Logo_Netflix"></li> 
+            <li><a href = "menu_en.html"><img class="arcane-logo" src="../images/titrearcane.png" alt="Arcane"></a></li>
+            <li><a href = "../anglais/perso_en.html">Personnages</a></li>
+            <li><a href = "../anglais/univers_en.html">Univers d'Arcane</a></li>
+            <li><a href = "../anglais/fortiche_en.html">Studio Fortiche</a></li>
+            <li><a href = "../anglais/riot_en.html">Riot Games</a></li>
+            <li><a href ="../anglais/langue_en.html">Langue</a></li>
+            <li><a href="avis_en.html"><img class="avis-image" src = "../images/avis.png" alt="avis"></a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="titre"><h2>Donnez votre avis</h2></div>
+    <form id="form" action="https://formspree.io/f/mzzzkavy" method="POST">
+        <p>
+            <label for="nom" class="label-text">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+    
+            <label for="email" class="label-text">Adresse e-mail :</label>
+            <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+    
+            <label for="note" class="label-text">Note :</label>
+            <select id="note" name="note">
+                <option>-- Sélectionnez une note --</option>
+                <option>1 - Mauvais</option>
+                <option>2 - Médiocre</option>
+                <option>3 - Moyen</option>
+                <option>4 - Bon</option>
+                <option>5 - Excellent</option>
+            </select>
+    
+            <label for="commentaire" class="label-text">Commentaire :</label>
+            <textarea id="commentaire" name="commentaire" rows="5" placeholder="Écrivez votre avis ici..." required></textarea>
+    
+            <button type="submit">Envoyer</button>
+        </p>
+    </form>
+
+    <div id="popup" class="popup">
+    <div class="popup-content">
+        <p><i>"Merci pour votre contribution"</i><br><img class="velkoz" src="../images/PAGE_AVIS/velkoz.webp" alt="velkoz"></p>
+        <button onclick="closePopup()">Fermer</button>
+    </div>
+</div>
+</body>
+</html>
