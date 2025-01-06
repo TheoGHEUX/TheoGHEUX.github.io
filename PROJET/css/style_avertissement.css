@@ -45,7 +45,7 @@ body{
 }
 
 .btn {
-    width: 45vw;
+    width: 60vw;
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
@@ -66,7 +66,7 @@ body{
 	
 	padding: 0.8vw;
 	text-transform: uppercase;
-	font-size: 5vw;
+	font-size: 7vw;
 	transition: all .15s ease;
 }
   
@@ -162,6 +162,7 @@ body{
 .btn:hover a{
     cursor: url(../images/PAGE_AVERTISSEMENT/curseur2.png) 32 32, auto;
     color: black;
+	
 }
 .btn--light {
 	--button-background-color: var(--background-color);
