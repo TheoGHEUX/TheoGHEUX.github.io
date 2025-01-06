@@ -40,6 +40,7 @@ body{
 	box-sizing: border-box;
 	margin-right: 1vw;
 }
+
 .btn {
     width: 45vw;
 	-moz-appearance: none;
@@ -144,12 +145,19 @@ body{
 }
 .btn:hover {
 	color: var(--button-text-color-hover);
-} 
+    cursor: url(../images/PAGE_AVERTISSEMENT/curseur2.png) 32 32, auto;
+}
+
 .btn:hover .btn__slide {
 	width: calc(100% + 1.7vw);
+    
 }
 .btn:hover .btn__inner::after {
 	background-color: var(--button-bits-color-hover);
+}
+
+.btn:hover a {
+    cursor: url(../images/PAGE_AVERTISSEMENT/curseur2.png) 32 32, auto;
 }
 .btn--light {
 	--button-background-color: var(--background-color);
