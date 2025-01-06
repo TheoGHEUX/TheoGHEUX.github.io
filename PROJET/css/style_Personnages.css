@@ -3,8 +3,8 @@
   src: url(../fonts/Arcane\ Nine.otf);
 }
 body{
-	font-family: 'arcane-';
-  background-image: url(../images/bg.jpg);
+  font-family: 'arcane-';
+  background-image: url(../images/bg.webp);
   background-size: cover;
   /*background-position: center;*/
   margin : 0;
