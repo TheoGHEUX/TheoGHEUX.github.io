@@ -1,11 +1,12 @@
 body{
     background-image: url(../images/PAGE_AVERTISSEMENT/jinxavertissement.webp);
-    background-size: cover;
+    background-size: 135vw, auto;
     margin : 0;
     padding : 0 ;
     color : white ;
     cursor: url(../images/PAGE_AVERTISSEMENT/curseur1.png) 32 32,auto;
     background-repeat: no-repeat;
+	background-position: center;
 }
 
 .logo-arcane {
@@ -21,7 +22,7 @@ body{
     font-size : 2vw;
     padding :  0.1vw 5vw 4vw 5vw;
     margin : 0 4vw 15vw 4vw ;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(100, 100, 100, 0.45);
     border-radius: 2vw;
     text-align: center;
     font-size: 3vw;
@@ -29,6 +30,7 @@ body{
 
 .paragraphe_accueil h2 {
     font-size: 6vw;
+	font-family: Noto Sans, sans-serif	;
 }
 
 .b{
@@ -56,7 +58,7 @@ body{
 	--button-text-color-hover: var(--button-background-color);
 	--border-color: #7D8082;
 	--button-background-color: #1d1d1d;
-	--highlight-color: #818181;
+	--highlight-color: #ffffff;
 	--button-inner-border-color: transparent;
 	--button-bits-color: var(--background-color);
 	--button-bits-color-hover: var(--button-background-color);
@@ -156,7 +158,7 @@ body{
 	background-color: var(--button-bits-color-hover);
 }
 
-.btn:hover a {
+a .btn:hover{
     cursor: url(../images/PAGE_AVERTISSEMENT/curseur2.png) 32 32, auto;
 }
 .btn--light {
@@ -166,12 +168,12 @@ body{
 	--button-text-color-hover: #ece8e1;
 	--button-bits-color-hover: #ece8e1;
 }
-button a{
+a button{
 	position: relative;
 	text-decoration: none;
 	color: #ece8e1;
 	text-transform: uppercase;
-	z-index: 2;
+	z-index: 8;
 }
 
 .space{
