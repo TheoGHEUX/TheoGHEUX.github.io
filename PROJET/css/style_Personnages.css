@@ -1,4 +1,4 @@
-@font-face {
+e@font-face {
   font-family: 'arcane';
   src: url(../fonts/Arcane\ Nine.otf);
 }
@@ -130,15 +130,18 @@ h4{
 .personnages{
   margin: auto;
   height: 10vw;
+  width: auto;
 }
 .Slides,
 .Slides2,
 .Slides3{
   display: none;
   height: 35vw;
+  width: auto;
   background-color: rgba(153, 153, 153, 0.8);
 }
 .Slide_conteneur {
+  height: auto;
   max-width: 98%;
   position: relative;
   margin: auto;
