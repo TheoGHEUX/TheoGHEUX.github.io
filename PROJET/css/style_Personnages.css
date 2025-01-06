@@ -74,9 +74,7 @@ h4{
 .txt_Rictus{
   font-size: 2.5vw;
 }
-.img_Zaun,
-.img_Piltover,
-.img_Noxus{
+.img_region{
   position: absolute;
   margin-left: 2vw;
   transition: all .4s ease;
