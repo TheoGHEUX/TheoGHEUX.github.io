@@ -236,13 +236,6 @@ h4{
     height: 20%;
   }
   .img_region{
-    position: absolute;
-    transition: all .4s ease;
-    bottom: 0;
-  }
-  .img_Zaun,
-  .img_Piltover,
-  .img_Noxus{
     margin-left: 2vw;
   }
   .JINX{
