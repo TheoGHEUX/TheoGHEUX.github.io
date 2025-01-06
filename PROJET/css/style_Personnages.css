@@ -3,7 +3,7 @@
   src: url(../fonts/Arcane\ Nine.otf);
 }
 body{
-  font-family: 'arcane-';
+  font-family: 'arcane';
   background-image: url(../images/bg.webp);
   background-size: cover;
   /*background-position: center;*/
@@ -35,6 +35,7 @@ h3{
   text-align: center;
 }
 .T_Nom{
+  margin: 10px;
   font-size: 3.2vw;
   font-weight: bold;
 }
@@ -50,16 +51,20 @@ h3{
   font-size: 2vw;
 }
 .txt_Caitlyn{
-  font-size: 2.1vw;
+  font-size: 1.85vw;
+  letter-spacing: 0.07vw;
+  
 }
 .image_conteneur{
   position: relative;
   height: 35vw;
   width: 50vw;
 }
-.txt_Ambessa,
-.txt_Rictus{
+.txt_Ambessa{
   font-size: 2.7vw;
+}
+.txt_Rictus{
+  font-size: 2.5vw;
 }
 .img_Zaun,
 .img_Piltover,
@@ -141,9 +146,9 @@ h3{
   padding: 15px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1vw;
   transition: 0.8s ease;
-  border-radius: 5px 25px 25px 5px;
+  border-radius: 1vw 5vw 5vw 1vw;
   user-select: none;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
@@ -153,7 +158,7 @@ h3{
 .next2,
 .next3 {
   right: -0.06vw;
-  border-radius: 25px 5px 5px 25px;
+  border-radius: 5vw 1vw 1vw 5vw;
 }
 /* hover fleche */
 .prev:hover,
@@ -299,6 +304,14 @@ h3{
     height: 40vw;
     background-color: rgba(153, 153, 153, 0.8);
   }
+  .prev,
+  .next,
+  .prev2,
+  .next2,
+  .prev3,
+  .next3 {
+    font-size: 2.5vw;
+  }
 }
 
 
@@ -352,6 +365,7 @@ h3{
   justify-content: center ;
   color:white;
   font-size: 1.5vw;
+  font-family: 'arcane';
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans;
 }
 
