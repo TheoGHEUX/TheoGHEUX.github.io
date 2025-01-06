@@ -82,14 +82,17 @@ h4{
 }
 .JINX{
   width: 30vw;
+  heigth: auto;
 }
 .VI{
   width: 30vw;
   margin-top: 4.5vw;
+  heigth: auto;
 }
 .EKKO{
   height: 35vw;
   margin-left: -2.2vw;
+  width: auto;
 }
 .JAYCE{
   margin-left: 10vw;
@@ -98,17 +101,21 @@ h4{
 }
 .MEL{
   height: 35vw;
+  width: auto;
 }
 .AMBESSA{
+  heigth: auto;
   width: 21vw;
 }
 .RICTUS{
   height: 26vw;
+  width: auto;
 }
 .region{
   margin: auto;
   background-color: rgba(0, 0, 0, 0.8);
   width: 70%;
+  height: auto;
 }
 .titre{
   height: 3vw;
