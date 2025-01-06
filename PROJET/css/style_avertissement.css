@@ -159,7 +159,7 @@ body{
 	background-color: var(--button-bits-color-hover);
 }
 
-a .btn:hover{
+.btn:hover a{
     cursor: url(../images/PAGE_AVERTISSEMENT/curseur2.png) 32 32, auto;
 }
 .btn--light {
@@ -169,7 +169,7 @@ a .btn:hover{
 	--button-text-color-hover: #ece8e1;
 	--button-bits-color-hover: #ece8e1;
 }
-a button{
+button a{
 	position: relative;
 	text-decoration: none;
 	color: #ece8e1;
