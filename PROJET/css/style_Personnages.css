@@ -84,7 +84,8 @@ h4{
   width: 30vw;
   height: auto;
 }
-.VI{
+.VI,
+.Caitlyn{
   width: 30vw;
   margin-top: 4.5vw;
   height: auto;
@@ -130,14 +131,12 @@ h4{
 }
 .Slides,
 .Slides2,
-.Slides3 {
+.Slides3{
   display: none;
   height: 35vw;
   background-color: rgba(153, 153, 153, 0.8);
 }
-.Slide_conteneur,
-.Slide_conteneur2,
-.Slide_conteneur3 {
+.Slide_conteneur {
   max-width: 98%;
   position: relative;
   margin: auto;
