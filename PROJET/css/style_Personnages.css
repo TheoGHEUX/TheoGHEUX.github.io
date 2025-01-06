@@ -107,9 +107,7 @@ h4{
 .RICTUS{
   height: 26vw;
 }
-.Zaun, 
-.Piltover,
-.Noxus{
+.region{
   margin: auto;
   background-color: rgba(0, 0, 0, 0.8);
   width: 70%;
@@ -353,7 +351,9 @@ h4{
   color: black;
   border: 2px solid black;
 }
+
 /* BANDEAU */
+
 .bandeau_perso {
   background-color: rgba(0,0,0,0.35) ;
   display: flex;
@@ -363,6 +363,7 @@ h4{
   font-family: 'arcane';
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans;
 }
+
 .bandeau_perso ul{
   display: flex;
   align-items: center;
@@ -371,22 +372,28 @@ h4{
   margin: 2vw;
   padding: 0;
 }
+
 .bandeau_perso ul li a{
   padding-right: 1vw;
   padding-left: 1vw;
   white-space: nowrap;
 }
+
 .bandeau_perso a:hover{
   color: black;
 }
+
+
 .arcane-logo {
   width: 23vw;  
-  heigth: auto;
 }
+
 .netflix-logo {
   width: 4vw;
-  heigth: 4vw;
+  height: 4vw;
+  
 }
+
 .avis-image {
   width: 5vw;
 }
