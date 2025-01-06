@@ -12,29 +12,25 @@ body{
   color : white ;
   /*cursor: url(../images/menu/epee.png),auto;*/
 }
-
-
 a {
   color : white ;
   text-decoration: none;
 }
 #conteneur {
   float: right;
-  width:35vw;
-  height:25vw;
+  width:33vw;
+  height:35vw;
   color: black;
   font-family: arcane;
   transition: all .4s ease;
   text-align: center;
   opacity: 90%;
-  margin-top: 1vw;
-  margin-right: 5vw;
-  letter-spacing: 0.15vw;
+  margin-right: 3.5vw;
+  letter-spacing: 0.1vw;
 }
 h3{
-  font-size: 4vw;
+  font-size: 3.6vw;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 1vw;
   font-weight: bold;
   text-align: center;
 }
@@ -43,20 +39,22 @@ h3{
   font-weight: bold;
 }
 .txt_Jinx,
-.txt_Vi,
 .txt_Jayce{
-  font-size: 2.55vw;
+  font-size: 2.4vw;
+}
+.txt_Vi{
+  font-size: 2.3vw;
 }
 .txt_Ekko,
 .txt_Mel{
-  font-size: 2.3vw;
+  font-size: 2vw;
 }
 .txt_Caitlyn{
   font-size: 2.1vw;
 }
 .image_conteneur{
   position: relative;
-  height: 40vw;
+  height: 35vw;
   width: 50vw;
 }
 .txt_Ambessa,
@@ -72,28 +70,29 @@ h3{
   bottom: 0;
 }
 .JINX{
-  width: 33vw;
+  width: 30vw;
 }
 .VI{
-  width: 35vw;
-  margin-top: 5vw;
+  width: 30vw;
+  margin-top: 4.5vw;
 }
 .EKKO{
-  height: 40vw;
+  height: 35vw;
+  margin-left: -2.2vw;
 }
 .JAYCE{
   margin-left: 10vw;
   width: auto;
-  height: 39vw;
+  height: 34vw;
 }
 .MEL{
-  height: 40vw;
+  height: 35vw;
 }
 .AMBESSA{
-  width: 25vw;
+  width: 21vw;
 }
 .RICTUS{
-  height: 30vw;
+  height: 26vw;
 }
 .Zaun, 
 .Piltover,
@@ -106,24 +105,18 @@ h3{
 .titre{
   display: flex;
   align-items: center;
-  margin-top: 2em;
+  margin-top: 2vw;
+  width: auto;
 }
 .personnages{
   margin: auto;
-  height: 10em;
-}
-@font-face {
-  font-family: 'bowlby_oneregular';
-  src: url('polices/Bowlby_One_font/bowlbyone-regular-webfont.woff2') format('woff2'),
-    url('polices/Bowlby_One_font/bowlbyone-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  height: 10vw;
 }
 .Slides,
 .Slides2,
 .Slides3 {
   display: none;
-  height: 40vw;
+  height: 35vw;
   background-color: rgba(153, 153, 153, 0.8);
 }
 .Slide_conteneur,
@@ -185,7 +178,7 @@ h3{
 /* nombre position */
 .nb {
   color: #ffffff;
-  font-size: 1.4vw;
+  font-size: 1.8vw;
   padding: 20px 10px;
   position: absolute;
   top: 0;
@@ -223,19 +216,89 @@ h3{
   .text {
     font-size: 11px;
   }
-.Zaun,
-.Piltover,
-.Noxus{
-  width: 95%;
-  height: 20%;
-}
-.img_Zaun,
-.img_Piltover,
-.img_Noxus{
-  position: absolute;
-  transition: all .4s ease;
-  bottom: 0;
-}
+  .Zaun,
+  .Piltover,
+  .Noxus{
+    width: 95%;
+    height: 20%;
+  }
+  .img_Zaun,
+  .img_Piltover,
+  .img_Noxus{
+    position: absolute;
+    transition: all .4s ease;
+    bottom: 0;
+  }
+  .img_Zaun,
+  .img_Piltover,
+  .img_Noxus{
+    margin-left: 2vw;
+  }
+  .JINX{
+    width: 33vw;
+  }
+  .VI{
+    width: 35vw;
+    margin-top: 5vw;
+  }
+  .EKKO{
+    height: 40vw;
+  }
+  .JAYCE{
+    margin-left: 10vw;
+    width: auto;
+    height: 39vw;
+  }
+  .MEL{
+    height: 40vw;
+  }
+  .AMBESSA{
+    width: 25vw;
+  }
+  .RICTUS{
+    height: 30vw;
+  }
+  #conteneur {
+    width:35vw;
+    height:25vw;
+    margin-top: 0.8vw;
+    margin-right: 5vw;
+    letter-spacing: 0.15vw;
+  }
+  h3{
+    font-size: 4vw;
+    padding-top: 1vw;
+  }
+  .T_Nom{
+    font-size: 3.2vw;
+  }
+  .txt_Jinx,
+  .txt_Vi,
+  .txt_Jayce{
+    font-size: 2.55vw;
+  }
+  .txt_Ekko,
+  .txt_Mel{
+    font-size: 2.3vw;
+  }
+  .txt_Caitlyn{
+    font-size: 2.1vw;
+  }
+  .image_conteneur{
+    height: 40vw;
+    width: 50vw;
+  }
+  .txt_Ambessa,
+  .txt_Rictus{
+    font-size: 2.7vw;
+  }
+  .Slides,
+  .Slides2,
+  .Slides3 {
+    display: none;
+    height: 40vw;
+    background-color: rgba(153, 153, 153, 0.8);
+  }
 }
 
 
