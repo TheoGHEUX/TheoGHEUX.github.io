@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/PAGE_AVERTISSEMENT/jinxavertissement.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% auto; /* Largeur de l'image à 100% de l'écran, hauteur ajustée automatiquement */
+    background-position: center; /* Centre l'image horizontalement */
+}
+
+
+
+/* .background {
+    width: 100%;
+    height: auto;
+    position: absolute;
+} */
+.arcane-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  width: 50vw;
+}
+h2{
+    font-family: Noto Sans, sans-serif	;
+    font-size: 5.5em;
+    font-weight: bold;
+}
+h4{
+    font-size: 2em;
+    margin-bottom: 2em;
+    font-family: Trebuchet MS, sans-serif	;
+}
+.Text{
+    margin: auto;
+    z-index: 5;
+    text-align: center;
+    background-color: rgba(117, 117, 117, 0.5);
+    width: 40%;
+    margin-top: 33%;
+    height: 5%;
+}
+
+.b{
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+}
+.b .btn{
+	transform: translateY(20%);
+	box-sizing: border-box;
+	margin-right: 1vw;
+}
+.btn {
+    width: 30%;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	background: none;
+	padding: 0;
+	color: var(--button-text-color);
+	cursor: pointer;
+	
+	--button-text-color: var(--background-color);
+	--button-text-color-hover: var(--button-background-color);
+	--border-color: #7D8082;
+	--button-background-color: #1d1d1d;
+	--highlight-color: #818181;
+	--button-inner-border-color: transparent;
+	--button-bits-color: var(--background-color);
+	--button-bits-color-hover: var(--button-background-color);
+	
+	padding: 8px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 3em;
+	transition: all .15s ease;
+}
+  
+.btn::before,
+.btn::after {
+	content: '';
+	display: block;
+	position: absolute;
+	right: 0; left: 0;
+	height: calc(50% - 5px);
+	border: 1px solid var(--border-color);
+	transition: all .15s ease;
+}
+  
+.btn::before {
+	top: 0;
+	border-bottom-width: 0;
+}
+  
+.btn::after {
+	bottom: 0;
+	border-top-width: 0;
+}
+.btn:active,
+.btn:focus {
+	outline: none;
+}
+.btn:active::before,
+.btn:active::after {
+	right: 0.09em;
+	left: 0.09em;
+}
+  
+.btn:active::before {
+	top: 0.09em;
+}
+  
+.btn:active::after {
+	bottom: 0.09em;
+}
+.btn__inner {
+	position: relative;
+	display: block;
+	padding: 20px 30px;
+	background-color: var(--button-background-color);
+	overflow: hidden;
+	box-shadow: inset 0px 0px 0px 1px var(--button-inner-border-color);
+  }
+.btn__inner::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	width: 0.05em;
+	height: 0.05em;
+	background-color: var(--button-bits-color);
+}  
+.btn__inner::after {
+	content: '';
+	display: block;
+	position: absolute;
+	right: 0; bottom: 0;
+	width: 0.1em;
+	height: 0.1em;
+	background-color: var(--button-bits-color);
+	transition: all .2s ease;
+}  
+.btn__slide {
+	display: block;
+	position: absolute;
+	top: 0; bottom: -1px; left: -8px;
+	width: 0;
+	background-color: var(--highlight-color);
+	transform: skew(-15deg);
+	transition: all .2s ease;
+  } 
+.btn__content {
+	position: relative;
+}
+.btn:hover {
+	color: var(--button-text-color-hover);
+} 
+.btn:hover .btn__slide {
+	width: calc(100% + 15px);
+}
+.btn:hover .btn__inner::after {
+	background-color: var(--button-bits-color-hover);
+}
+.btn--light {
+	--button-background-color: var(--background-color);
+	--button-text-color: var(--highlight-color);
+	--button-inner-border-color: var(--highlight-color);
+	--button-text-color-hover: #ece8e1;
+	--button-bits-color-hover: #ece8e1;
+}
+button a{
+	position: relative;
+	text-decoration: none;
+	color: #ece8e1;
+	text-transform: uppercase;
+	z-index: 2;
+}
+
+.space{
+    display: flex;
+    margin-top: 40%;
+}
