@@ -119,11 +119,11 @@ h4{
   height: auto;
 }
 .titre{
-  height: 3vw;
+  width: auto;
+  height: 4vw;
   display: flex;
   align-items: center;
   margin-top: 2vw;
-  width: auto;
 }
 .personnages{
   margin: auto;
