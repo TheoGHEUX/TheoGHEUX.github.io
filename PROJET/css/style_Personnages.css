@@ -20,87 +20,87 @@ a {
 }
 #conteneur {
   float: right;
-  width:38em;
-  height:30em;
+  width:35vw;
+  height:25vw;
   color: black;
   font-family: arcane;
   transition: all .4s ease;
   text-align: center;
   opacity: 90%;
-  margin-top: 1em;
-  margin-right: 5em;
-  letter-spacing: 0.15em;
+  margin-top: 1vw;
+  margin-right: 5vw;
+  letter-spacing: 0.15vw;
 }
 h3{
-  font-size: 4em;
+  font-size: 4vw;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 1em;
+  padding-top: 1vw;
   font-weight: bold;
   text-align: center;
 }
 .T_Nom{
-  font-size: 3.2em;
+  font-size: 3.2vw;
   font-weight: bold;
 }
 .txt_Jinx,
 .txt_Vi,
 .txt_Jayce{
-  font-size: 2.55em;
+  font-size: 2.55vw;
 }
 .txt_Ekko,
 .txt_Mel{
-  font-size: 2.3em;
+  font-size: 2.3vw;
 }
 .txt_Caitlyn{
-  font-size: 2.1em;
+  font-size: 2.1vw;
 }
 .image_conteneur{
   position: relative;
-  height: 40em;
-  width: 50em;
+  height: 40vw;
+  width: 50vw;
 }
 .txt_Ambessa,
 .txt_Rictus{
-  font-size: 2.7em;
+  font-size: 2.7vw;
 }
 .img_Zaun,
 .img_Piltover,
 .img_Noxus{
   position: absolute;
-  margin-left: 8em;
+  margin-left: 2vw;
   transition: all .4s ease;
   bottom: 0;
 }
 .JINX{
-  width: 33em;
+  width: 33vw;
 }
 .VI{
-  width: 35em;
-  margin-top: 5em;
+  width: 35vw;
+  margin-top: 5vw;
 }
 .EKKO{
-  height: 40em;
+  height: 40vw;
 }
 .JAYCE{
-  margin-left: 10em;
+  margin-left: 10vw;
   width: auto;
-  height: 39em;
+  height: 39vw;
 }
 .MEL{
-  height: 40em;
+  height: 40vw;
 }
 .AMBESSA{
-  width: 30em;
+  width: 25vw;
 }
 .RICTUS{
-  height: 30em;
+  height: 30vw;
 }
 .Zaun, 
 .Piltover,
 .Noxus{
   margin: auto;
   background-color: rgba(0, 0, 0, 0.8);
-  width: 60%;
+  width: 70%;
 }
 
 .titre{
@@ -123,7 +123,7 @@ h3{
 .Slides2,
 .Slides3 {
   display: none;
-  height: 40em;
+  height: 40vw;
   background-color: rgba(153, 153, 153, 0.8);
 }
 .Slide_conteneur,
@@ -132,7 +132,7 @@ h3{
   max-width: 98%;
   position: relative;
   margin: auto;
-  padding-bottom: 2em;
+  padding-bottom: 2vw;
 }
 /* 2 boutons */
 .prev,
@@ -143,7 +143,7 @@ h3{
 .next3 {
   cursor: pointer;
   position: absolute;
-  top: 16em;
+  top: 16vw;
   width: auto;
   padding: 15px;
   color: white;
@@ -159,7 +159,7 @@ h3{
 .next,
 .next2,
 .next3 {
-  right: -0.06em;
+  right: -0.06vw;
   border-radius: 25px 5px 5px 25px;
 }
 /* hover fleche */
@@ -185,7 +185,7 @@ h3{
 /* nombre position */
 .nb {
   color: #ffffff;
-  font-size: 1.4em;
+  font-size: 1.4vw;
   padding: 20px 10px;
   position: absolute;
   top: 0;
@@ -217,13 +217,41 @@ h3{
   animation-duration: 1.5s;
 }
 /* test adaptation screen*/
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 1000px) {
   .prev,
   .next,
   .text {
     font-size: 11px;
   }
+.Zaun,
+.Piltover,
+.Noxus{
+  width: 95%;
+  height: 20%;
 }
+.img_Zaun,
+.img_Piltover,
+.img_Noxus{
+  position: absolute;
+  transition: all .4s ease;
+  bottom: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Bouton*/
 .bouton_retourClass{
