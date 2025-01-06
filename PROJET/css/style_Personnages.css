@@ -115,7 +115,7 @@ h4{
 .region{
   margin: auto;
   background-color: rgba(0, 0, 0, 0.8);
-  width: 85%;
+  width: 70%;
   height: auto;
 }
 .titre{
@@ -235,9 +235,7 @@ h4{
     width: 95%;
     height: 20%;
   }
-  .img_Zaun,
-  .img_Piltover,
-  .img_Noxus{
+  .img_region{
     position: absolute;
     transition: all .4s ease;
     bottom: 0;
