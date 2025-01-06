@@ -258,6 +258,7 @@ h4{
   }
   .EKKO{
     height: 40vw;
+    font-size: 1.9vw;
   }
   .JAYCE{
     margin-left: 10vw;
@@ -277,7 +278,7 @@ h4{
     width:35vw;
     height:25vw;
     margin-top: 0.8vw;
-    margin-right: 5vw;
+    margin-right: 4.5vw;
     letter-spacing: 0.15vw;
   }
   h3{
