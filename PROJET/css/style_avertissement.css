@@ -161,6 +161,7 @@ body{
 
 .btn:hover a{
     cursor: url(../images/PAGE_AVERTISSEMENT/curseur2.png) 32 32, auto;
+    color: black;
 }
 .btn--light {
 	--button-background-color: var(--background-color);
