@@ -110,8 +110,8 @@ h4{
   background-color: rgba(0, 0, 0, 0.8);
   width: 70%;
 }
-
 .titre{
+  height: auto;
   display: flex;
   align-items: center;
   margin-top: 2vw;
@@ -343,7 +343,6 @@ h4{
   align-items: center;
   transition: background-color 0.4s, color 0.4s, border-color 0.4s;
 }
-
 .bouton_retourClass:hover{
   background-color: rgba(17, 17, 17, 0.3);
   color: black;
@@ -361,7 +360,6 @@ h4{
   font-family: 'arcane';
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans;
 }
-
 .bandeau_perso ul{
   display: flex;
   align-items: center;
@@ -370,28 +368,24 @@ h4{
   margin: 2vw;
   padding: 0;
 }
-
 .bandeau_perso ul li a{
   padding-right: 1vw;
   padding-left: 1vw;
   white-space: nowrap;
 }
-
 .bandeau_perso a:hover{
   color: black;
 }
-
-
 .arcane-logo {
-  width: 23vw;  
+  width: 23vw;
+  height: auto;  
 }
-
 .netflix-logo {
   width: 4vw;
   height: 4vw;
   
 }
-
 .avis-image {
   width: 5vw;
+  height: 5vw;
 }
