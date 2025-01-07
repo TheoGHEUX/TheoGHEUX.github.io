@@ -121,13 +121,6 @@ h4{
   width: 70%;
   height: auto;
 }
-.titre{
-  width: auto;
-  height: 4vw;
-  display: flex;
-  align-items: center;
-  margin-top: 2vw;
-}
 .personnages{
   margin: auto;
   height: 10vw;
@@ -355,9 +348,7 @@ h4{
   color: black;
   border: 2px solid black;
 }
-
 /* BANDEAU */
-
 .bandeau_perso {
   background-color: rgba(0,0,0,0.35) ;
   display: flex;
