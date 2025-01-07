@@ -143,11 +143,7 @@ h4{
 }
 /* 2 boutons */
 .prev,
-.next,
-.prev2,
-.next2,
-.prev3,
-.next3 {
+.next {
   cursor: pointer;
   position: absolute;
   top: 16vw;
@@ -163,19 +159,13 @@ h4{
   z-index: 2;
 }
 /* Position bouton droite */
-.next,
-.next2,
-.next3 {
+.next{
   right: -0.06vw;
   border-radius: 5vw 1vw 1vw 5vw;
 }
 /* hover fleche */
 .prev:hover,
-.next:hover,
-.prev2:hover,
-.next2:hover,
-.prev3:hover,
-.next3:hover{
+.next:hover{
   background-color: white;
   color: black;
 }
@@ -383,8 +373,6 @@ h4{
   height: 4vw;
 }
 .avis-image {
-  max-height: 150px;
-  max-width: 150px;
   width: 5vw;
   height: 5vw;
 }
