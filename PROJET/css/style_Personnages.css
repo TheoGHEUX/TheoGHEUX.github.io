@@ -84,6 +84,8 @@ h4{
   bottom: 0;
 }
 .JINX{
+  max-height: 300px; 
+  max-width: 300px; 
   width: 30vw;
   height: auto;
 }
