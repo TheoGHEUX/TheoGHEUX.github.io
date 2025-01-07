@@ -42,7 +42,7 @@
                         arsenal d'armes explosives,  semant la panique partout où elle pose le pied.</p>
                 </div>
                 <div class="image_conteneur"> 
-                    <img src="../images/PAGE_PERSONNAGES/jinx.webp" class="img_region JINX" alt="JINX">
+                    <img src="../images/PAGE_PERSONNAGES/jinx.webp" class="img_region JINX" width="800" height="937" alt="JINX">
                 </div>
             </div>
             <div class="Slides transition">
@@ -75,15 +75,15 @@
                 </div>
             </div>
             <!-- defilement -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a id="prev1" class="prev">&#10094;</a>
+            <a id="next1" class="next">&#10095;</a>
         </div>
     </div>
     <!-- cercle placement-->
     <br><div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="slideshow1.goToSlide(0)"></span>
+        <span class="dot" onclick="slideshow1.goToSlide(1)"></span>
+        <span class="dot" onclick="slideshow1.goToSlide(2)"></span>
     </div>
     <div class="region">
         <h3>Piltover</h3>
@@ -136,15 +136,16 @@
                 </div>
             </div>
             <!-- defilement -->
-            <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
-            <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+            <a id="prev2" class="prev2">&#10094;</a>
+            <a id="next2" class="next2">&#10095;</a>
         </div>
     </div>
     <!-- cercle placement-->
     <br><div style="text-align:center">
-        <span class="dot2" onclick="currentSlide2(1)"></span>
-        <span class="dot2" onclick="currentSlide2(2)"></span>
-        <span class="dot2" onclick="currentSlide2(3)"></span>
+        <span class="dot2" onclick="slideshow2.goToSlide(0)"></span>
+        <span class="dot2" onclick="slideshow2.goToSlide(1)"></span>
+        <span class="dot2" onclick="slideshow2.goToSlide(2)"></span>
+
     </div>
     <div class="region">
         <h4>Noxus</h4>
@@ -179,17 +180,15 @@
                 </div>
             </div>
             <!-- defilement -->
-            <a class="prev3" onclick="plusSlides3(-1)">&#10094;</a>
-            <a class="next3" onclick="plusSlides3(1)">&#10095;</a>
+            <a id="prev3" class="prev3">&#10094;</a>
+            <a id="next3" class="next3">&#10095;</a>
         </div>
     </div>
-
     <!-- cercle placement-->
     <br><div style="text-align:center">
-        <span class="dot3" onclick="currentSlide3(1)"></span>
-        <span class="dot3" onclick="currentSlide3(2)"></span>
+        <span class="dot3" onclick="slideshow3.goToSlide(0)"></span>
+        <span class="dot3" onclick="slideshow3.goToSlide(1)"></span>
     </div>
-
     <!-- Bouton de retour-->
     <button id="BoutonRetourID" class="bouton_retourClass">↑</button>
 </body>
