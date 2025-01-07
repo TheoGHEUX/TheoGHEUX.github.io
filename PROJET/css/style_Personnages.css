@@ -84,8 +84,6 @@ h4{
   bottom: 0;
 }
 .JINX{
-  max-height: 900px; 
-  max-width: 800px; 
   width: 30vw;
   height: auto;
 }
@@ -236,7 +234,11 @@ h4{
 @media only screen and (max-width: 1000px) {
   .prev,
   .next,
-  .text {
+  .text,
+  .prev2,
+  .next2,
+  .prev3,
+  .next3 {
     font-size: 11px;
   }
   .region{
@@ -247,8 +249,6 @@ h4{
     margin-left: 2vw;
   }
   .JINX{
-    max-height: 500px; 
-    max-width: 500px; 
     width: 33vw;
   }
   .VI{
@@ -324,6 +324,11 @@ h4{
     font-size: 2.5vw;
   }
 }
+
+
+
+
+
 /*Bouton*/
 .bouton_retourClass{
   font-weight: bold;
