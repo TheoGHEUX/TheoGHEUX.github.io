@@ -1,98 +1,41 @@
-/** Premier slide **/
-var slideIndex = 1;
-showSlides(slideIndex);
+function initSlideshow(slideshowClass, dotsClass) {
+  let slideIndex = 0;
 
-function plusSlides(n) {
-  showSlides((slideIndex += n));
+  const slides = document.getElementsByClassName(slideshowClass);
+  const dots = document.getElementsByClassName(dotsClass);
+
+  function showSlides(n) {
+    slideIndex = (n + slides.length) % slides.length; // Utilisation de modulo
+    Array.from(slides).forEach((slide, i) => {
+      slide.style.display = i === slideIndex ? "block" : "none";
+    });
+    Array.from(dots).forEach((dot, i) => {
+      dot.className = dot.className.replace(" active", "");
+      if (i === slideIndex) dot.className += " active";
+    });
+  }
+  return {
+    nextSlide: () => showSlides(slideIndex + 1),
+    previousSlide: () => showSlides(slideIndex - 1),
+    goToSlide: (n) => showSlides(n),
+    init: () => showSlides(0), // Initialise le slideshow
+  };
 }
 
-function currentSlide(n) {
-  showSlides((slideIndex = n));
-}
+// Initialisation des trois slideshows
+const slideshow1 = initSlideshow("Slides", "dot");
+const slideshow2 = initSlideshow("Slides2", "dot2");
+const slideshow3 = initSlideshow("Slides3", "dot3");
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("Slides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
-}
-                
+// Exemple d'utilisation
+slideshow1.init();
+document.getElementById("next1").onclick = slideshow1.nextSlide;
+document.getElementById("prev1").onclick = slideshow1.previousSlide;
 
-/**Deuxième slide**/
+slideshow2.init();
+document.getElementById("next2").onclick = slideshow2.nextSlide;
+document.getElementById("prev2").onclick = slideshow2.previousSlide;
 
-
-var slideIndex2 = 1;
-showSlidese(slideIndex2);
-
-function plusSlides2(n) {
-  showSlidese((slideIndex2 += n));
-}
-
-function currentSlide2(n) {
-  showSlidese((slideIndex2 = n));
-}
-
-function showSlidese(n) {
-  var i;
-  var slides = document.getElementsByClassName("Slides2");
-  var dots = document.getElementsByClassName("dot2");
-  if (n > slides.length) {
-    slideIndex2 = 1;
-  }
-  if (n < 1) {
-    slideIndex2 = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex2 - 1].style.display = "block";
-  dots[slideIndex2 - 1].className += " active";
-}
-
-/** Troisième slide **/
-var slideIndex3 = 1;
-showSlideseE(slideIndex3);
-
-function plusSlides3(n) {
-  showSlideseE((slideIndex3 += n));
-}
-
-function currentSlide3(n) {
-  showSlideseE((slideIndex3 = n));
-}
-
-function showSlideseE(n) {
-  var i;
-  var slides = document.getElementsByClassName("Slides3");
-  var dots = document.getElementsByClassName("dot3");
-  if (n > slides.length) {
-    slideIndex3 = 1;
-  }
-  if (n < 1) {
-    slideIndex3 = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex3 - 1].style.display = "block";
-  dots[slideIndex3 - 1].className += " active";
-}
+slideshow3.init();
+document.getElementById("next3").onclick = slideshow3.nextSlide;
+document.getElementById("prev3").onclick = slideshow3.previousSlide;
