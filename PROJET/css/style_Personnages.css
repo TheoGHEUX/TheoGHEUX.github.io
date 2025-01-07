@@ -21,7 +21,7 @@ a {
   width:33vw;
   height:35vw;
   color: black;
-  font-family: arcane;
+  font-family: 'arcane';
   transition: all .4s ease;
   text-align: center;
   opacity: 90%;
